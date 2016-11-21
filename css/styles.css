@@ -1,0 +1,153 @@
+/* Here is where the Google Font is added*/
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+h1 , p {
+
+    font-family: 'Indie Flower', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    margin: 20px 0px;
+    
+}
+body {
+    background-color: gold;
+}
+h1 {
+    text-align: center;
+}
+
+/* This is where the navigation bar is styled */
+
+#nav {
+    text-align: right;
+    
+}
+
+#nav a {
+    text-decoration: none;
+    
+}
+
+.container {
+    width:960px;
+    margin:auto;
+    
+}
+
+/* Style for Background photo is here*/
+
+.topcontent {
+    background: url(../images/push_ups.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.topcontent p {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    
+}
+
+.maincontent {
+   padding: 20px;
+   margin: auto;
+   margin-bottom: 40px;
+   background-color: lightblue;
+   font-size: 20px;
+}
+
+
+/*This is the styling for unordered list throughout site */
+.maincontent ul li {
+    list-style-type: sqaure;
+    padding: 20px;
+    text-align:left;
+}
+
+.maincontent a {
+    text-decoration: none;
+    background: pink;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 50px;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    text-size: 24px;
+}
+.space-p p {
+    margin-top: 10px;
+}
+
+.subcontent1 {
+    float: left;
+    background-color: pink;
+    width:45%;
+    text-size: 24px;
+}
+
+/* Be mindful of subcontent 1 and 2 deisgned as ul li AND ul a below*/
+.subcontent1 ul li {
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+.subcontent1 ul a {
+    text-decoration:  none;
+    color: lightblue;
+    text-align: center;
+}
+
+.subcontent2 ul li {
+    list-style: none;
+    text-align: left;
+    
+}
+
+.subcontent2 ul a {
+    text-decoration:  none;
+    color: pink;
+    text-align: center;
+}
+
+
+.subcontent2 {
+    float: right;
+    background-color: pink;
+    width:45%;
+}
+
+.full-image {
+    max-width:100%;
+    
+}
+
+.subcontent1 ul a , .subcontent2 ul a{
+    background: lightblue;
+    
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin:20px auto;
+    text-align: center;
+    text-size: 24px;
+}
+.subcontent1 p , .subcontent2 p{
+    margin-top: 10px;
+}
