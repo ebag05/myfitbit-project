@@ -1,11 +1,19 @@
 /* Here is where the Google Font is added*/
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
 
-h1 , p {
+@import url('https://fonts.googleapis.com/css?family=Exo');
 
-    font-family: 'Indie Flower', cursive;
+h1 {
+
+    font-family: 'Shrikhand', cursive;
 }
+
+p {
+
+    font-family: 'Exo', sans-serif;
+}    
+
 * {
     margin: 0px;
     padding: 0px;
