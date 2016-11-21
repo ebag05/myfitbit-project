@@ -25,12 +25,12 @@ h1 {
 /* This is where the navigation bar is styled */
 
 #nav {
-    text-align: right;
+    text-align: center;
     
 }
 
 #nav a {
-    text-decoration: none;
+    text-decoration: underline;
     
 }
 
